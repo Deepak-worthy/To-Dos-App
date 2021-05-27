@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Item Lister</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-header">
+    <div id="header-title">To-Dos APP</div>
+    <input type="text" id="search" placeholder="Search todos..">
+  </div>
+  <div class="container">
+   <div id="main">
+    <div id="additems">Add To-dos</div>
+    <form id="submit-form">
+      <input type="text" id="item" placeholder="Task Description">
+      <input type="text" id="description" placeholder="Date">
+      <input type="submit" id="submit-id" value="Submit">
+    </form>
+    <span id="List-title">Items</span>
+    <ul id="list">
+      <li class="list-group-item">
+        <span>Item 1</span>
+        <button class="btn-delete">Delete</button>
+        <button class="Edit">Edit</button><br>
+      </li>
+      <li class="list-group-item">
+        <span>Item 2</span>
+        <button class="btn-delete">Delete</button>
+        <button class="Edit">Edit</button><br>
+      </li>
+      <li class="list-group-item">
+        <span>Item 3</span> 
+        <button class="btn-delete">Delete</button>
+        <button class="Edit">Edit</button><br>
+      </li>
+      <li class="list-group-item">
+        <span>Item 4</span> 
+        <button class="btn-delete">Delete</button>
+        <button class="Edit">Edit</button><br>
+      </li>
+      <li class="list-group-item">
+        <span>Item 5</span> 
+        <button class="btn-delete">Delete</button>
+        <button class="Edit">Edit</button><br>
+      </li>
+    </ul>
+   </div>
+  </div>  
+  <script src="script.js"></script> 
+</body>
+</html>

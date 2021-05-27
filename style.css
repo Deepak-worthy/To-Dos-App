@@ -1,0 +1,70 @@
+#main-header{
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+#header-title
+{
+    font-family:Georgia;
+    font-size: 50px;
+}
+#search
+{
+    width: 230px;
+    Height:25px;
+    border:none;
+    border-radius: 3px;
+}
+#submit-id
+{
+    margin-top: 10px;
+}
+#main
+{
+    width:30%;
+    margin:auto;
+    border-color:green;
+    border-style: solid;
+    border-radius: 7px;
+    margin-top:3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#additems
+{
+    font-size:xx-large;
+    margin:10px;
+}
+#submit-form
+{
+    margin: 10px;
+}
+#List-title
+{
+    margin:10px;
+    font-size:x-large;
+}
+#list
+{
+    padding-left: 0pt;
+    margin:5px;
+    list-style-type: none;
+}   
+.list-group-item
+{
+    border:thin solid;
+    padding:10px;
+    margin:5px;
+}
+.btn-delete
+{
+    float:right;   
+    padding:3px 10px  3px 10px;
+}
+.Edit
+{
+    float:right;
+    padding:3px 10px  3px 10px;
+    margin-right: 10px;
+}
